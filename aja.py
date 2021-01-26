@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 c=np.linspace(-40,100,20)
 
@@ -8,4 +9,6 @@ def farh(x):
 
 fh=farh(c)
 
+plt.plot(c,fh)
+plt.show()
 
